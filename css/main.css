@@ -1,0 +1,193 @@
+
+/*****Grid*****/
+
+body {
+  width: 1240px;
+  line-height: 18px;
+}
+
+
+.full-width {
+  width: 1240px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.half-width {
+  width: 50%;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.third-width {
+  float: left;
+  width: 33%;
+  height: 210px;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: lightgrey;
+font-family: 'Montserrat', sans-serif;
+  }
+
+.third-width h4{
+  color: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+/*****HEADER*****/
+
+header {
+  height: 110px;
+  padding-left: 25px;
+}
+
+header h1{
+  font-size: 30px;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 48px;
+  padding-left: 23px;
+}
+
+span {
+  color: #53ba5c;
+}
+
+nav {
+    float: right;
+    padding-top: 48px;
+}
+
+
+nav ul li  {
+    display: inline-block;
+		font-family: Source Sans Pro;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:18px;
+    color: #53ba5c;
+    padding-left: 10px;
+}
+
+
+/*****MAIN*****/
+
+
+
+
+main {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+}
+
+main img{
+  height: 290px;
+  width: 1240px;
+  border: solid;
+  border-width: thin;
+  border-color: #53ba5c;
+}
+
+
+#welcome h3 {
+  font-variant: small-caps;
+  font-size: 18px;
+  color: #53ba5c;
+  font-weight: bolder;
+  line-height: 33px;
+}
+
+#welcome p {
+  line-height: 20px;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-right: 62px
+  padding-bottom: 40px;
+  padding-left: 0px;
+}
+
+#Specials h3{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#Specials h4{
+  color: #53ba5c;
+}
+
+#Specials {
+  text-align: left;
+  font-size: 16px;
+  padding-bottom: 28px;
+}
+
+#Reviews h3 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#Reviews {
+  padding-left: 31px;
+  padding-right: 46px;
+  padding-bottom: 28px;
+  font-size: 16px;
+  text-align: left;
+  border-left: solid;
+  border-right: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  line-height: 20px;
+}
+
+#Contact h3{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 33px;
+  padding-right: 47px;
+}
+
+#Contact {
+  text-align: left;
+  font-size: 16px;
+  padding-left: 31px;
+  padding-right: 46px;
+  padding-bottom: 28px;
+  line-height: 25px;
+}
+
+
+
+
+/*****FOOTER*****/
+footer{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  border-top: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  margin-top: 
+}
+
+footer em {
+  font-family: 'Great Vibes', cursive;
+  color: #53ba5c;
+  text-transform: lowercase;
+}
